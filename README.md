@@ -10,6 +10,10 @@ so that the response will include information about which of the quality
 requirements were satisfied.  If the proposed new password is not acceptable,
 then the user will be re-prompted until the password is changed successfully.
 
+See [https://nawilson.com/2019/01/29/programmatically-retrieving-password-quality-requirements-in-the-ping-identity-directory-server/](https://nawilson.com/2019/01/29/programmatically-retrieving-password-quality-requirements-in-the-ping-identity-directory-server/)
+for a blog post with more information about the get password quality
+requirements extended operation and password validation details control.
+
 The [UnboundID LDAP SDK for Java](https://github.com/pingidentity/ldapsdk) is
 the only dependency for this example.
 
@@ -53,8 +57,8 @@ The following is an example of the tool being used:
     Do you wish to trust this certificate?  Enter 'y' or 'n': yes
     The directory server appears to support the get password quality requirements extended request, the password modify extended request, and the password validation details request control.
 
-    Enter the DN of the user as whom to authenticate: uid=admin,dc=example,dc=com
-    Enter the password for 'uid=admin,dc=example,dc=com':
+    Enter the DN of the user as whom to authenticate: uid=password.admin,ou=People,dc=example,dc=com
+    Enter the password for 'uid=password.admin,ou=People,dc=example,dc=com':
 
     Enter the DN of the user whose password should be changed: uid=john.doe,ou=People,dc=example,dc=com
 
