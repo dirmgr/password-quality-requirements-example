@@ -46,7 +46,7 @@ The following is an example of the tool being used:
 
     The server presented the following certificate chain:
 
-         Subject: CN=naw-serval,O=Ping Identity Self-Signed Certificate
+         Subject: CN=ds.example.com,O=Ping Identity Self-Signed Certificate
          Valid From: Sunday, January 27, 2019 at 10:51:14 PM CST
          Valid Until: Sunday, January 23, 2039 at 10:51:14 PM CST
          SHA-1 Fingerprint: 8d:cc:cf:ed:3e:d4:d1:89:8e:9a:67:13:36:0d:95:ba:cc:4e:7c:73
