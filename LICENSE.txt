@@ -1,0 +1,10 @@
+The sample code in this repository is available under three licenses:
+
+* The GLU General Public License version 2 (GPLv2).  See the LICENSE-GPLv2.txt
+  file for this license.
+
+* The GNU Lesser General Public License version 2.1 (LGPLv2.1).  See the
+  LICENSE-LGPLv2.1.txt file for this license.
+
+* The Apache License version 2.0.  See the LICENSE-Apache-v2.0.txt for this
+  license.
